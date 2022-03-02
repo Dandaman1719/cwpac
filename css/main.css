@@ -87,11 +87,34 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-section {
-  height: 500px;
-  background-color: yellow;
-  border: 1px solid black;
-   }
+   
+ul.sm-navlinks {
+    align-items: center;
+    background-color: rgb(198, 166, 240);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+.sm-navlinks {
+  list-style: none;
+}
+
+.sm-navlinks li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 15px;
+}
+
+.sm-navlinks li a {
+  color: palegoldenrod;
+  transition: all 0.3s ease 0s;
+}
+
+.sm-navlinks li a:hover {
+  color: white;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
